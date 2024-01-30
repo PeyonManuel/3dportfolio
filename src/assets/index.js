@@ -20,14 +20,24 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import aws from "./tech/aws.png";
+import mysql from "./tech/mysql.png";
+import python from "./tech/python.png";
+import sass from "./tech/sass.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import sofi from "./company/sofi.jpg";
+import JacksLounge from "./company/JacksLounge.jpg";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
+import ukiyo from "./ukiyo.png";
+import moviez from "./moviez.png";
+import libremercado from "./libremercado.png";
+import jacks from "./jacks.png";
 import tripguide from "./tripguide.png";
 
 export {
@@ -49,6 +59,10 @@ export {
   nodejs,
   reactjs,
   redux,
+  aws,
+  sass,
+  python,
+  mysql,
   tailwind,
   typescript,
   threejs,
@@ -56,7 +70,13 @@ export {
   shopify,
   starbucks,
   tesla,
+  sofi,
+  JacksLounge,
   carrent,
   jobit,
+  jacks,
+  ukiyo,
+  moviez,
+  libremercado,
   tripguide,
 };
