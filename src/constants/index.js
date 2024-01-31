@@ -26,6 +26,7 @@ import {
   ukiyo,
   moviez,
   jacks,
+  summarize,
   libremercado,
   tripguide,
   threejs,
@@ -148,45 +149,57 @@ const experiences = [
   },
 ];
 
-const testimonials = [
-  {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
-  },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
-  },
-];
-
 const projects = [
+  {
+    name: "Summarize AI",
+    description:
+      "This website offers a powerful solution for users looking to quickly understand the essence of web content.\n\
+       By simply inputting a link, it generates a concise summary of the webpage or post.\n\
+        The platform is built with modern technologies like React, TypeScript, Tailwind CSS, Redux, and incorporates API integration from Rapid API, ensuring a seamless and efficient user experience.\n\
+        \
+      Key Features:\n\
+      \
+      Content Summarization: Instantly generates summaries for any given web page or post link. Summary History: Maintains a record of all summaries created by the user for easy access. Link Copying: Enables users to copy the original links of summarized posts for sharing. Technologies Used: Built with React, TypeScript, Tailwind CSS, Redux, and features API integration from Rapid API for robust functionality.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "typescript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "react-redux",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "apiintegration",
+        color: "violet-text-gradient",
+      },
+      {
+        name: "html/css",
+        color: "yellow",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: summarize,
+    source_code_link: "https://github.com/PeyonManuel/ai-summarizer",
+  },
   {
     name: "Moviezz",
     description:
-      "Movie directory using The movie database API.\
-      The goal was to create a directory using the most important functionalities of the API and make my own design using inspirations from other popular movie directories.\
+      "Movie directory using The movie database API.\n\
+      The goal was to create a directory using the most important functionalities of the API and make my own design using inspirations from other popular movie directories.\n\
       \
-      Main features\
-      List most popular movies, tv shows and people of the moment\
-      Search with automatic suggestions for movies, series and people\
-      Site about each film with general information, cast, details, reviews and similar films or the collection of the film\
-      Site about each series with general information, cast, details, reviews and similar series\
+      Main features\n\
+      List most popular movies, tv shows and people of the moment\n\
+      Search with automatic suggestions for movies, series and people\n\
+      Site about each film with general information, cast, details, reviews and similar films or the collection of the film\n\
+      Site about each series with general information, cast, details, reviews and similar series\n\
       Site about each person with biography, details, filmography in order by popularity of the moment and filmography categorized by type, year and details such as number of episodes or role",
     tags: [
       {
@@ -212,10 +225,10 @@ const projects = [
   {
     name: "Ukiyo manga site",
     description:
-      "Ukiyo is a manga site where you can search and read your favorite mangas with style!\
-      Applied API integration as well as created my own styles from scratch using SASS, and built components with React.\
-      The site lists mangas from different API calls with different filters.\
-      It has a pre made plan system.\
+      "Ukiyo is a manga site where you can search and read your favorite mangas with style!\n\
+      Applied API integration as well as created my own styles from scratch using SASS, and built components with React.\n\
+      The site lists mangas from different API calls with different filters.\n\
+      It has a pre made plan system.\n\
       It has the details page where you can see details of a manga in specific.\
       ",
     tags: [
@@ -242,14 +255,14 @@ const projects = [
   {
     name: "Libre mercado",
     description:
-      "I developed an eCommerce site inspired by Mercado Libre, showcasing my ability to adhere to specific client guidelines and build a comprehensive eCommerce solution from scratch. Key aspects of the project included:\
+      "I developed an eCommerce site inspired by Mercado Libre, showcasing my ability to adhere to specific client guidelines and build a comprehensive eCommerce solution from scratch. Key aspects of the project included:\n\
       \
-      Backend Development: Created with NodeJs and Express.\
-      Data Management: Utilized MongoDB and mongoose for database operations.\
-      Custom Styling: Implemented unique styles using CSS.\
-      Frontend Construction: Built using JavaScript and React.\
-      State Management: Managed application state using Redux.\
-      Transaction Processing: Integrated PayPal's API for transactions.\
+      Backend Development: Created with NodeJs and Express.\n\
+      Data Management: Utilized MongoDB and mongoose for database operations.\n\
+      Custom Styling: Implemented unique styles using CSS.\n\
+      Frontend Construction: Built using JavaScript and React.\n\
+      State Management: Managed application state using Redux.\n\
+      Transaction Processing: Integrated PayPal's API for transactions.\n\
       Key features of the site include user registration and login, token authentication with JSON Web Tokens, email verification, address registration, password and email changes, buying and selling functionalities, a favorites system, notifications, history, a question option for sellers, a purchase rating feature, and sections for various user needs like history, purchases, and personal data, all categorized and searchable with filters.",
     tags: [
       {
@@ -280,6 +293,35 @@ const projects = [
     image: libremercado,
     source_code_link: "https://github.com/PeyonManuel/Libre-mercado",
   },
+  {
+    name: "Jack's Lounge landing page",
+    description:
+      "Created a bespoke landing page for Jack's Lounge, meeting the client's specific requirements without using third-party styling libraries. This restobar and café's digital presence is defined by:\n\
+      \
+      Custom Parallax Effect: Captivates with an initial dynamic visual.\n\
+      Detailed Venue Description: Immerses users with text and images.\n\
+      Animated 'About' Section: Brings the lounge's story to life.\n\
+      Smooth Site Navigation: Ensures effortless exploration.\n\
+      Attractive Menu Displays: Highlights café and restaurant offerings in a unique style.\n\
+      Developed using React, TypeScript, Tailwind CSS, and Redux, the project delivers a personalized and seamless web experience.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "html/css",
+        color: "yellow",
+      },
+      {
+        name: "javascript",
+        color: "yellow",
+      },
+    ],
+    image: jacks,
+    source_code_link:
+      "https://github.com/PeyonManuel/Jack-s-longue-landing-page",
+  },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, experiences, projects };
