@@ -223,6 +223,39 @@ const projects = [
     source_code_link: "https://github.com/PeyonManuel/movie-project",
   },
   {
+    name: "Car Searcher",
+    description:
+      "This project is a highly responsive web application designed for car enthusiasts and potential buyers to effortlessly search and filter cars. Built with React, Next.js, and TypeScript, it offers advanced search capabilities allowing users to precisely find vehicles based on a wide range of criteria. The application handles data efficiently in chunks for optimal performance, even with extensive datasets. Tailwind CSS ensures a sleek, mobile-responsive design, while SEO and metadata are finely tuned for maximum online visibility. A perfect blend of modern technologies and innovative data handling techniques makes this platform stand out for users and search engines alike.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "typescript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "apiintegration",
+        color: "violet-text-gradient",
+      },
+      {
+        name: "html/css",
+        color: "yellow",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: summarize,
+    source_code_link: "https://github.com/PeyonManuel/ai-summarizer",
+  },
+  {
     name: "Ukiyo manga site",
     description:
       "Ukiyo is a manga site where you can search and read your favorite mangas with style!\n\
