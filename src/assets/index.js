@@ -39,6 +39,7 @@ import moviez from "./moviez.png";
 import libremercado from "./libremercado.png";
 import jacks from "./jacks.png";
 import summarize from "./summarize.png";
+import carproject from "./carproject.png";
 import tripguide from "./tripguide.png";
 
 export {
@@ -77,6 +78,7 @@ export {
   jobit,
   jacks,
   summarize,
+  carproject,
   ukiyo,
   moviez,
   libremercado,

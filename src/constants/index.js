@@ -27,8 +27,8 @@ import {
   moviez,
   jacks,
   summarize,
+  carproject,
   libremercado,
-  tripguide,
   threejs,
 } from "../assets";
 
@@ -252,8 +252,8 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: summarize,
-    source_code_link: "https://github.com/PeyonManuel/ai-summarizer",
+    image: carproject,
+    source_code_link: "https://github.com/PeyonManuel/car-project",
   },
   {
     name: "Ukiyo manga site",
