@@ -48,8 +48,8 @@ const About = () => {
       >
         Full stack developer highly skilled in React, demonstrating an advanced
         proficiency in state management. My experience in React is complemented
-        by my expertise in MongoDB, MySQL, JavaScript, Python, Redux, SCSS,
-        NodeJS and AWS. I have experience streamlining code quality and
+        by my expertise in MongoDB, MySQL, JavaScript, Nextjs, Redux, SCSS,
+        NodeJS and Express. I have experience streamlining code quality and
         functionality. I have a solid understanding of software architecture,
         API development, and am adept at collaborating with clients to ensure
         project success. My commitment to continuous learning is evident in my

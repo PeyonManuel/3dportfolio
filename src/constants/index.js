@@ -21,6 +21,7 @@ import {
   python,
   sofi,
   JacksLounge,
+  nextjs,
   carrent,
   jobit,
   ukiyo,
@@ -49,10 +50,6 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
-    icon: web,
-  },
-  {
     title: "React Js Developer",
     icon: mobile,
   },
@@ -60,16 +57,12 @@ const services = [
     title: "Backend Developer",
     icon: backend,
   },
-  {
-    title: "Video Editor",
-    icon: creator,
-  },
 ];
 
 const technologies = [
   {
-    name: "JavaScript",
-    icon: javascript,
+    name: "Next JS",
+    icon: nextjs,
   },
   {
     name: "TypeScript",
